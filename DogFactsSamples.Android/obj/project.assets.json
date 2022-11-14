@@ -766,10 +766,14 @@
           "System.Numerics.Vectors"
         ],
         "compile": {
-          "lib/monoandroid90/Xamarin.Essentials.dll": {}
+          "lib/monoandroid90/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/monoandroid90/Xamarin.Essentials.dll": {}
+          "lib/monoandroid90/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Forms/4.4.0.991265": {
@@ -782,18 +786,38 @@
           "Xamarin.Android.Support.v7.CardView": "28.0.0.3"
         },
         "compile": {
-          "lib/MonoAndroid90/FormsViewGroup.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Core.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Platform.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll": {}
+          "lib/MonoAndroid90/FormsViewGroup.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Platform.dll": {
+            "related": ".Android.pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/MonoAndroid90/FormsViewGroup.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Core.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Platform.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll": {}
+          "lib/MonoAndroid90/FormsViewGroup.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Platform.dll": {
+            "related": ".Android.pdb"
+          },
+          "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "build": {
           "build/Xamarin.Forms.props": {},
@@ -1934,32 +1958,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/mgreen14/.nuget/packages/": {}
+    "C:\\Users\\Andy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mgreen14/Projects/DogFactsSamples/DogFactsSamples.Android/DogFactsSamples.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Andy\\source\\repos\\DogFactsSamples\\DogFactsSamples.Android\\DogFactsSamples.Android.csproj",
       "projectName": "DogFactsSamples.Android",
-      "projectPath": "/Users/mgreen14/Projects/DogFactsSamples/DogFactsSamples.Android/DogFactsSamples.Android.csproj",
-      "packagesPath": "/Users/mgreen14/.nuget/packages/",
-      "outputPath": "/Users/mgreen14/Projects/DogFactsSamples/DogFactsSamples.Android/obj/",
+      "projectPath": "C:\\Users\\Andy\\source\\repos\\DogFactsSamples\\DogFactsSamples.Android\\DogFactsSamples.Android.csproj",
+      "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andy\\source\\repos\\DogFactsSamples\\DogFactsSamples.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/mgreen14/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/mgreen14/Projects/DogFactsSamples/DogFactsSamples/DogFactsSamples.csproj": {
-              "projectPath": "/Users/mgreen14/Projects/DogFactsSamples/DogFactsSamples/DogFactsSamples.csproj"
+            "C:\\Users\\Andy\\source\\repos\\DogFactsSamples\\DogFactsSamples\\DogFactsSamples.csproj": {
+              "projectPath": "C:\\Users\\Andy\\source\\repos\\DogFactsSamples\\DogFactsSamples\\DogFactsSamples.csproj"
             }
           }
         }
